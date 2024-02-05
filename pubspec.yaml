@@ -63,6 +63,8 @@ flutter:
     - assets/public/images/paldeck/
     - assets/public/images/works/
     - assets/public/images/elements/
+    - assets/public/images/items/
+    - assets/public/images/maps/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
