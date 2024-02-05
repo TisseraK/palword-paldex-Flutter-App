@@ -65,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       borderRadius: BorderRadius.circular(360),
                       image: DecorationImage(
                           fit: BoxFit.fitWidth,
-                          image: AssetImage("assets/" +
+                          image: AssetImage("assets" +
                               listPal[index]['suitability'][i]["image"]))),
                   child: Stack(
                     alignment: Alignment.bottomRight,
@@ -496,7 +496,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                   width: _h * 0.15,
                                   decoration: BoxDecoration(
                                       image: DecorationImage(
-                                          image: AssetImage("assets/" +
+                                          image: AssetImage("assets" +
                                               listPal[index]['image']))),
                                 ),
                               ],
